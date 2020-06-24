@@ -6,23 +6,6 @@ body {
   background-image: url('3026431590cb64c73cd0002e024e2dba.jpg');
 }
 
-#hello {
-  justify-content: left;
-  text-align: left;
-  padding-top: 80px;
-  padding-left: 50px;
-  font-size: 95px;
-  color: maroon;
-}
-
-#nice {
-  justify-content: left;
-  text-align: left;
-  padding-left: 50px;
-  font-size: 40px;
-  color: rgb(177, 43, 43);
-}
-
 .logo {
   padding: 0px;
   margin: 0px;
@@ -31,15 +14,6 @@ body {
   vertical-align:top;
   width: 50;
   height: 50px;
-}
-
-#weltext {
-  justify-content: left;
-  text-align: left;
-  padding: 50px;
-  padding-top: 10px;
-  font-size: 45px;
-  color: maroon;
 }
 
 #gtkm {
