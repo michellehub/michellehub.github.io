@@ -6,6 +6,36 @@ body {
   background-image: url('3026431590cb64c73cd0002e024e2dba.jpg');
 }
 
+.padding {
+  padding: 25px;
+}
+
+#hello {
+  justify-content: left;
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 50px;
+  font-size: 95px;
+  color: maroon;
+}
+
+#nice {
+  justify-content: left;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 40px;
+  color: rgb(177, 43, 43);
+}
+
+#weltext {
+  justify-content: left;
+  text-align: left;
+  padding: 50px;
+  padding-top: 10px;
+  font-size: 45px;
+  color: maroon;
+}
+
 .logo {
   padding: 0px;
   margin: 0px;
@@ -63,50 +93,15 @@ body {
   color: rgb(121, 17, 17);
 }
 
-.column1 {
-  width: 33%;
-  border: 3px solid rgb(255, 130, 130);
-  margin: 1px;
+.row {
+  margin-bottom: 50px;
 }
 
-.column2 {
-  width: 33%;
-  border: 3px solid rgb(255, 126, 216);
-  margin: 1px;
+.d-block {
+  margin: auto;
 }
 
-.column3 {
-  width: 33%;
-  border: 3px solid rgb(177, 108, 255);
-  margin: 1px;
-}
-
-.column4 {
-  width: 33%;
-  border: 3px solid rgb(76, 248, 176);
-  margin: 1px;
-}
-
-.column5 {
-  width: 33%;
-  border: 3px solid rgb(126, 124, 243);
-  margin: 1px;
-}
-
-.column6 {
-  width: 33%;
-  border: 3px solid rgb(63, 165, 248);
-  margin: 1px;
-}
-
-.column7 {
-  width: 33%;
-  border: 3px solid orange;
-  margin: 1px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.carousel-caption {
+  font-size: 18px;
+  color: rgb(49, 49, 49);
 }
