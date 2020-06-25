@@ -7,7 +7,7 @@ body {
 }
 
 .padding {
-  padding: 25px;
+  padding: 30px;
 }
 
 #hello {
@@ -104,4 +104,10 @@ body {
 .carousel-caption {
   font-size: 18px;
   color: rgb(49, 49, 49);
+}
+
+.video {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
 }
