@@ -36,6 +36,15 @@ body {
   color: maroon;
 }
 
+#dis {
+  justify-content: left;
+  text-align: left;
+  padding: 50px;
+  padding-top: 10px;
+  font-size: 22px;
+  color: maroon;
+}
+
 .logo {
   padding: 0px;
   margin: 0px;
@@ -151,4 +160,17 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.any {
+  display: flex;
+  justify-content: center;
+  color: darkred;
+}
+
+.kindly {
+  display: flex;
+  justify-content: center;
+  color: darkred;
+  font-size: 20px;
 }
