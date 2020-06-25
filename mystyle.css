@@ -92,7 +92,7 @@ body {
 
 #cm {
   padding-left: 26px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   color: darkred;
 }
 
@@ -109,8 +109,10 @@ body {
 
 #cma {
   padding-left: 26px;
-  padding-bottom: 20px;
+  padding-right: 26px;
+  padding-bottom: 16px;
   font-size: 16px;
+  display: block;
   line-height: 22px;
   color: rgb(121, 17, 17);
 }
