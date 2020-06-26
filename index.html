@@ -11,6 +11,15 @@
   <link rel="stylesheet" type="text/css" href="mystyle.css">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <title>Michelle's Thing</title>
+
+  <script> tyoe="text/javascript"
+  function fn1 ()
+  {
+    var str = document.getElementById("text1").value;
+  }
+  
+  </script>
+
 </head>
 
 <body>
@@ -45,25 +54,25 @@
 </div>
 
   <div id="welcome">
-    <h1 id="hello"><b>Hello There!</b></h1>
+    <h1 id="hello" style="font-family: 'Chasy'; font-size: 115px;"><b>Hello There!</b></h1>
     <p id="nice"><i>Nice to see you</i></p>
-    <h2 id="weltext">Welcome to my website, <strong> Michelle's Thing</strong>, <br> where everything that I like become one!</h2>
+    <h2 id="weltext" style="font-family: 'Chicken';">Welcome to my website, <strong> Michelle's Thing</strong>, <br> where everything that I like become one!</h2>
     <p id="dis"><i>*Disclaimer: If you like ice cream, arts and movies, I think we can get along!</i></p>
   </div>
 
   <div class="padding">
   <div id="about">
   <div>
-    <h2 id="gtkm">Get To Know Me :)</h2>
-    <p id="gtkma">My name is Michelle Natasha. I am an Indonesian and live in Jakarta for good 17 years since I was born on January 7, 2003.
+    <h2 id="gtkm" style="font-family: 'Moon'; font-size: 45px;">Get To Know Me :)</h2>
+    <p id="gtkma" style="font-family: monospace; font-size: 18px;">My name is Michelle Natasha. I am an Indonesian and live in Jakarta for good 17 years since I was born on January 7, 2003.
     I recently graduated from Saint Theresia Vocational High School majoring in tour and travel. 
     Now I am learning "How to <strong>Build a Website"</strong> that is held by <strong> Generation Girl</strong> with my amazing mentors and friends! </p>
   </div>
 
   <div>
-    <h3 id="wdil"><i>What do I like to do?</i></h3>
-    <p id="wdila">Actually I like to do many things because I get interested easily to something. Let me make a recap of what I like to do:</p>
-    <ul id="wdill">
+    <h3 id="wdil" style="font-family: 'Moon'; font-size: 40px;"><i>What do I like to do?</i></h3>
+    <p id="wdila" style="font-family: monospace; font-size: 19px;">Actually I like to do many things because I get interested easily to something. Let me make a recap of what I like to do:</p>
+    <ul id="wdill" style="font-family: monospace; font-size: 18px;">
       <li>Eat! First thing first, I really love to eat, because who doesn't right?</li>
       <li>Paintings! I am not a really good painter but I do love painting, both traditional and digital</li>
       <li>Watch movies or drama</li>
@@ -75,8 +84,8 @@
 </div>
 
   <div>
-    <h2 id="cm">Contact Me</h2>
-    <p id="cma">
+    <h2 id="cm" style="font-family: 'Moon'; font-size: 45px;">Contact Me</h2>
+    <p id="cma" style="font-family: monospace; font-size: 18px;">
       Talk to me via <a href="https://instagram.com/michelleenatasha/">instagram</a> direct message <br>
       Or you can <a href="mailto:michellenatasha17@gmail.com">email</a> me <br>
       Visit my <a href="https://www.youtube.com/channel/UCjrN_-RxQ0H4iWYzWGAAjwQ">youtube channel</a> </p>
@@ -91,8 +100,8 @@
   </div>
 
   <div id="art">
-  <h1 id="cm"><b>Welcome To My Art Gallery!</b></h1>
-  <h2 id="da"><i>Digital Art</i></h2>
+  <h1 id="cm" style="font-family: 'Moon'; font-size: 45px;"><b>Welcome To My Art Gallery!</b></h1>
+  <h2 id="da" style="font-family: 'Type'; font-size: 30px;"><i>Digital Art</i></h2>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -173,7 +182,7 @@
   </div>
   </div>
 
-  <h2 id="dan"><i>Traditional Art</i></h2>
+  <h2 id="dan" style="font-family: 'Type'; font-size: 30px;"><i>Traditional Art</i></h2>
     <div id="traditional">
       <div class="row">
         <div class="column">
@@ -205,8 +214,13 @@
     </div>
     </div>
 
-    <h3 class="any">Any suggestion to improve my website?</h3>
-    <p class="kindly"><i>Kindly send your thoughts to my <a href="mailto:michellenatasha17@gmail.com">email!</a></i></p>
+    <h3 class="any"><b><i>Any suggestion to improve my website?</i></b></h3>
+    <input class="center-block" type="text1" placeholder="Kindly write your thoughts here!">
+    <br>
+    <button class="subButton" type="button" onclick=
+         "document.getElementById('text1').style.display
+         ='none'">Submit</button>
+
 
 </div>
 </body>

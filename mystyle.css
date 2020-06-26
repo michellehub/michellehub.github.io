@@ -2,16 +2,37 @@ body {
   background-image: url('3026431590cb64c73cd0002e024e2dba.jpg');
 }
 
+@font-face {
+  font-family: 'Chasy';
+  src: url('Chasy.otf');
+}
+
+@font-face {
+  font-family: 'Type';
+  src: url('JMH\ Typewriter-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Chicken';
+  src: url('CHICKEN\ Pie.otf');
+}
+
+@font-face {
+  font-family: 'Moon';
+  src: url('Moonbright\ Demo.ttf');
+}
+
 .padding {
   padding: 30px;
 }
 
 #hello {
+  font-family: 'Chasy';
   justify-content: left;
   text-align: left;
   padding-top: 80px;
   padding-left: 50px;
-  font-size: 95px;
+  font-size: 100px;
   color: maroon;
 }
 
@@ -28,7 +49,7 @@ body {
   text-align: left;
   padding: 50px;
   padding-top: 10px;
-  font-size: 45px;
+  font-size: 50px;
   color: maroon;
 }
 
@@ -164,6 +185,7 @@ body {
   display: flex;
   justify-content: center;
   color: darkred;
+  font-family: monospace;
 }
 
 .kindly {
@@ -171,4 +193,43 @@ body {
   justify-content: center;
   color: darkred;
   font-size: 20px;
+}
+
+input[type=text1]{
+  width: 50%;
+  height: 70%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: .3s;
+  text-align: center;
+}
+
+input[type=text1]:focus {
+  border-color: rgb(255, 152, 114);
+  box-shadow: 0 0 8px  rgb(255, 152, 114);
+  margin: auto;
+  margin-top: 20px;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.subButton {
+    border: 2px;
+    background-color: violet;
+    border-radius: 4px;
+    outline: none;
+    padding: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
